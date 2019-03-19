@@ -529,10 +529,12 @@ th {
   content: "\e078";
 }
 .glyphicon-chevron-left:before {
-  content: "\e079";
+	content: "\e079";
+	color: #000;
 }
 .glyphicon-chevron-right:before {
-  content: "\e080";
+	content: "\e080";
+	color: #000;
 }
 .glyphicon-plus-sign:before {
   content: "\e081";
@@ -1585,8 +1587,9 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;
+	margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -3019,15 +3022,25 @@ select[multiple].input-lg {
 			user-select: none;
 	background-image: none;
 	border: 1px solid transparent;
-	border-radius: 5px;
+	border-radius: 10px;
 	position: relative;
 	top: 15px;  
 	font-size: 18px;
-	background-color: rgba(0, 0, 0, .05);
-	border-color: #4c3f37;
+	background-color: rgba(0, 0, 0, .6);
+	border-color: #000;
 	color: #fff;
 
 }
+
+.btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn a:hover {
+	color: #fff;
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -3041,7 +3054,7 @@ select[multiple].input-lg {
 .btn:focus,
 .btn.focus {
   color: #fff;
-  background-color: rgba(1, 9, 9, .6);
+  background-color: rgba(0, 0, 0, .7);
   text-decoration: none;
 }
 .btn:active,
