@@ -8,6 +8,8 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Jose Quinteros">
 
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="./images/galeria/favicon.ico"/>	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -16,52 +18,62 @@
 			
 </head>
 <body>
-	<header>
-		<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+	<section class="navbar custom-navbar navbar-fixed-top section" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<button class="navbar-toggle" data-toggle="collapse">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
 				</div>
+	
+				<!-- MENU LINKS -->
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-nav-first">
-						<li><a href=".."><i class="fa fa-lg fa-home"></i></a></li>
+						<li><a href="../"><i class="fa fa-lg fa-home"></i></a></li>
 						<li><a href="../noticias.html" class="smoothScroll">Noticias</a></li>
 						<li><a href="../publicaciones.html" class="smoothScroll">Publicaciones</a></li>
-						<li><a href="#" class="smoothScroll">Proyecto</a></li>
+						<li><a href="../proyecto.html" class="smoothScroll">Proyecto</a></li>
 						<li><a href="../#nosotros" class="smoothScroll">Nosotros</a></li>
 						<li><a href="../#contactenos" class="smoothScroll">Contacto</a></li>
 					</ul>
 				</div>
 			</div>
 		</section>
-		<!-- Cabecera de la pagina (Titulo) -->
-		<section id="proyect" data-stellar-background-ratio="0.5">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="home-info">
-							<h1 class="text-justify">Proyecto fondecyt Nº 11150087 </h1>
-							<h1 class="text-justify">OTRACIC "Observatorio de la trayectoria de las ciudades Chilenas"</h1>	
-							<a href="#proyect-title" class="btn section-btn smoothScroll">Ver Resumen</a> 	  					  
-						</div>
-					</div>   				   
-				</div>		
-			</div>
-		</section>
-	</header>
-
-	<!-- Descripcion del proyecto -->
-	<section id="proyect-title">
+	<!-- Cabecera de la pagina (Titulo) -->
+	<section id="proyect" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="col-md-12">
-						<h1>Resumen</h1>
+					<div class="home-info">
+						<h1 class="text-justify">Proyecto fondecyt Nº 11150087 </h1>
+						<h1 class="text-justify">OTRACIC "Observatorio de la trayectoria de las ciudades Chilenas"</h1>	
+						<a href="#proyect-title" class="btn section-btn smoothScroll">Ver Resumen</a> 	  					  
 					</div>
+				</div>   				   
+			</div>		
+		</div>
+	</section>
+
+
+	<!-- TITULO DEL PROYECTO -->
+	<section id="publicTitle" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<h2 class="h1">Resumen</h2>
+					<span class="line-bar">...</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Descripcion del proyecto -->
+	<section id="proyect-title" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
 					<div class="media notice-box">
 						<h3 class="text-justify">
 							El presente laboratorio se enmarca en el desarrollo del proyecto Fondecyt Iniciación 
@@ -74,33 +86,33 @@
 	</section>
 
 	<footer data-stellar-background-ratio="0.5">
-			<div class="container">
-				 <div class="row">
-					  <div class="col-md-12 col-sm-12">
-						   <div class="footer-bottom">
-								<div class="col-md-6 col-sm-5">
-									 <div class="copyright-text"> 
-										  <p> &copy; <a href="#">2018 www.otracic.com</a></p>
-									 </div>
-								</div>
-								<!-- <div class="col-md-6 col-sm-7">
-									 <div class="phone-contact"> 
-										  <p>creada por <a href="https://www.linkedin.com/in/josequinterosguzman/"> Jose Quinteros G.</a></p>
-									 </div>
-								</div> -->
-						   </div>
-					  </div>            
-				 </div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="footer-bottom">
+						<div class="col-md-6 col-sm-5">
+							<div class="copyright-text"> 
+								<p> &copy; <a href="http://www.otracic.cl/">2018 www.otracic.cl</a></p>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-7">
+							<!-- <div class="phone-contact"> 
+								<p>creada por <a href="https://www.linkedin.com/in/josequinterosguzman/"> GacNet.cl </a></p>
+							</div> -->
+						</div>
+					</div>
+				</div>            
 			</div>
-	   </footer>
+		</div>
+	</footer>
 
 
-     <script src="js/jquery.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/jquery.magnific-popup.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-	 <script src="js/custom.js"></script>
-	 <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
